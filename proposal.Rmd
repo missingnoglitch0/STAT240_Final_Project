@@ -7,80 +7,54 @@ The project proposal should be a knitted R Markdown document which contains the 
 
 The names of the students in the group.
 
-> Ethan Yu, Martin Diges, Connor Eastman, Raj Singh
+> Ethan Yu, Martin Diges, Connor Eastman, Raj Aryan Singh
 
 A brief description of how the group will communicate and work together.
 
-
+> We'll communicate when necessary, and meet a few days before assignments are due.
 
 When during the week can the group meet? Consider needs of all group members.
 
-
+> Ethan flexible >4PM weekdays, Connor varies by day, >4PM Tu-Thu, >5:30 Mon-Wed-Fri, Raj > 12pm weekdays
 
 What platforms will the group use to communicate and share documents.
 
-
+> Snapchat, Discord.
 
 The question or questions of interest that motivate the planned study.
-
-
-
 The topic selected must be unanimous among group members.
 Each question should be in the form of a research question which may be supported or refuted by the data analysis and typically proposes or predicts a relationship between some variables in the study.
 Note that your project should aim to answer a limited number of questions (preferably one) using data from one or more source.
 Do not try to answer too many questions. Better projects will have a focused set of one or two questions.
-
-
+> Do users of certain social media platforms experience higher levels of loneliness?
+> Are social media use and age related?
+> How do rates of loneliness differ across platforms?
 
 The source(s) of data.
-
-
+> Ethan Yu collected the data through a UW summer program wherein students conducted research.
 
 A description of the data. Include in this description answers to these questions:
 - Who collected the data?
+> Ethan Yu
+
 - How were the data collected?
+> Local Madison teenagers, was also posted on social media and reddit
+> This data will be kept private but will be shared with isntructors. If any other instructors would like access, we can add them.
+
 - What are key variables in the data set, what do they measure, and how are they related to your key questions?
+> Loneliness metrics (loneliness measured through a standardised instrument UCLA Loneliness Scale)
+> https://www.researchgate.net/publication/305718826_Development_of_the_Preference_for_Online_Social_Interaction_Scale_for_Chinese_adolescents
+https://fetzer.org/sites/default/files/images/stories/pdf/selfmeasures/Self_Measures_for_Loneliness_and_Interpersonal_Problems_VERSION_3_UCLA_LONELINESS.pdf
+> Qualitative social media use, age, gender, race (including the 'Are you Hispanic?' question)
+
 - If the data may be thought of as a sample from some larger population, what is that larger population?
-Note: if you get the data from a data repository such as Kaggle, you will need to dig into supplementary information to answer these questions.
-It is insufficient to simply report a link to a Kaggle repository.
+> Teenagers in Madison West High School.
 
-
-
-Include a description of a graph which will show how the data informs the primary question of interest.
-
-
-
-Describe what variables you will include and what type of graph you will create.
-
-
+Include a description of a graph which will show how the data informs the primary question of interest. Describe what variables you will include and what type of graph you will create.
+> Plotting social media preferences (instrument 2) against loneliness instrument, scatter plot and regression.
 
 Include a description of a possible model for the data and associated methods of inference or prediction.
-
-
-
 We understand that you may not have a good grasp of these methods yet.
 We understand the choice of methods may change between the proposal and the final project.
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+> Regression model
+> Confidence interval between rates of male/female loneliness
